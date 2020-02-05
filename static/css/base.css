@@ -1,0 +1,42 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  background-color: #f1f1f2;
+}
+.dropdown-container {
+  min-width: 20rem;
+  padding-bottom: 0;
+}
+
+.host-list {
+  max-height: 406px;
+  overflow: scroll;
+}
+
+.host_list .host-list__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  transition: all 0.3s;
+}
+
+.host-list__item:hover {
+  background-color: #eee;
+}
+
+.search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.sort-btn__icon {
+  color: #535b62;
+}
+
+.show {
+  display: block;
+}
